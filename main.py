@@ -7,7 +7,7 @@ app = FastAPI()
 def read():
     return {"prediction_model_name": "cfar_10_categorical_image_classification"}
 
-@app.post("/openapi.json HTTP/")
+@app.post("/docs")
 async def image_read_pred():
     Prediction_pipeline = prediction_pipeline()
     return Prediction_pipeline

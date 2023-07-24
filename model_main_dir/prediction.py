@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 import tensorflow as tf
 import numpy as np
 
-load_model = tf.keras.models.load_model("C:/Users/Manoj Negi/PycharmProjects/Cifar_10/saved_model_dir/07_25_2023_01_02_01/20230724-152503_cfar_10_agu_model_2.weights.best.hdf5")
-test_file_path = "C:/Users/Manoj Negi/PycharmProjects/Cifar_10/test_image_dir/"
+load_model = tf.keras.models.load_model("*/saved_model_dir/07_25_2023_01_02_01/20230724-152503_cfar_10_agu_model_2.weights.best.hdf5")
+test_file_path = "/*test_image_dir/"
 
 
 def prediction_pipeline():
