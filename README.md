@@ -32,8 +32,10 @@ The classes are completely mutually exclusive. There is no overlap between autom
 
 the dataset contains 50000 images of each class mentioned above as a label class for the training of the model.
 the model saved on the best weights with a validation accuracy of 74%
-
 ```
+![model2_cfar_plot](https://github.com/MANOJ-S-NEGI/CFAR_10/assets/99602627/9d20d4a2-9df9-4811-8f74-d947ee697411)
+
+
 ```
 note:
 * Create a virtual environment
